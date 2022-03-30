@@ -1,0 +1,27 @@
+:root{
+    background-color: rgb(77, 77, 233);
+}
+h1{
+    color: white;
+}
+  table {      
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid white;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even){background-color: white}
+
+  tr:nth-child(2n-1) {
+    background: rgb(218, 211, 211);
+  }
+  span,th{
+      background: black;
+      color: #39803f;
+     }
+
